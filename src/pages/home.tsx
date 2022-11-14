@@ -12,6 +12,11 @@ import iconPharma from '../assets/expertise/icone-pharma.svg';
 import iconUtililities from '../assets/expertise/icone-utilities.svg';
 
 import temp from '../assets/temp.png';
+import ar_navigation_01 from '../assets/ar_navigation_01.jpg';
+import ar_navigation_02 from '../assets/ar_navigation_02.jpeg';
+import ar_02 from '../assets/ar_01.jpg';
+import ar_01 from '../assets/ar_02.jpg';
+import ar_navigation from '../assets/ar_navigation.jpg';
 import { ExpertiseItem } from "../components/expertise_item";
 import { BackToTop } from "../components/backToTop";
 import { Feedback } from "../components/feedback";
@@ -33,7 +38,6 @@ export function Home() {
                          <TypingText texts={[
                                 'Realidade Aumentada', 
                                 'Indústria 4.0', 
-                                'Topografia 4.0',  
                                 'Eficiência Operacional', 
                                 'Inventário Digital', 
                                 'Realidade Virtual', 
@@ -52,9 +56,9 @@ export function Home() {
 
 
 <div className="flex flex-row justify-between py-8 px-24 mt-[-96px]">
-            <img className="w-1/2 mr-4" src={temp} alt="Imagem Equipe"/>
+            <img className="w-1/2 mr-4" src={ar_navigation} alt="Imagem Equipe"/>
 
-              <img className="w-1/2" src={temp} alt="Imagem Equipe"/>
+              <img className="w-1/2" src={ar_navigation_01} alt="Imagem Equipe"/>
 
 </div>
 
@@ -106,9 +110,9 @@ export function Home() {
 Acreditando no potencial produtivo e operacional da indústria, trabalhamos na missão de superar os desafios dos nossos clientes e no comprometimento das metas de cada projeto. Possuímos uma metodologia de “entrega” em que monitoramos constantemente os indicadores de desempenho da nossa equipe, pois o sucesso da implementação é o que nos fortalece.</p>
 
               <div className="flex flex-row justify-between py-8">
-                          <img className="w-1/2 mr-4" src={temp} alt="Imagem Equipe"/>
+                          <img className="w-1/2 mr-4" src={ar_01} alt="Imagem Equipe"/>
 
-                            <img className="w-1/2" src={temp} alt="Imagem Equipe"/>
+                            <img className="w-1/2" src={ar_02} alt="Imagem Equipe"/>
 
               </div>
             </div>
@@ -150,7 +154,7 @@ Acreditando no potencial produtivo e operacional da indústria, trabalhamos na m
                           <Button label="Vamos Conversar"/>
                         </div>             
                 </div>
-                  <img className="w-1/2" src={temp} alt="Imagem Equipe"/>
+                  <img className="w-1/2" src={ar_navigation_02} alt="Imagem Equipe"/>
             </div>
 
     </div>

@@ -21,7 +21,7 @@ export function SocialLinks() {
                         </div>
                             
 
-                        <div className="flex flex-col">
+                        <div className="flex flex-col ml-4">
 
                                 <a data-aos='slide-up' href="#" target='_blank' className='flex flex-row justify-start py-1 text-white items-center'>
                                     <AiOutlinePhone className="h-4 w-4"/>
