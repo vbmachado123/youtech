@@ -15,8 +15,8 @@ export function Footer() {
 
                 <SocialLinks/>
         </div>
-      <p className='text-sm text-center pt-8 text-white'>Todos os direitos reservados 2021 - 2022 <strong>Youtech</strong> ©</p>
-            <p className='text-sm pb-8 text-center text-white'>Desenvolvido por <strong><a href="http://tevitto.com" target="_blank">teVitto Code</a></strong> | 2022</p>
+      <p className='text-sm text-center py-8 text-white'>Todos os direitos reservados 2021 - 2022 <strong>Youtech</strong> ©</p>
+            {/* <p className='text-sm pb-8 text-center text-white'>Desenvolvido por <strong><a href="http://tevitto.com" target="_blank">teVitto Code</a></strong> | 2022</p> */}
 
 
     </div>
